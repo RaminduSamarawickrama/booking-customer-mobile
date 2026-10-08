@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Transfers",
+    "slug": "booking-customer-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.booking.customer"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1F6F5C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "dev.booking.customer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "bookingcustomer"
+  }
+}
